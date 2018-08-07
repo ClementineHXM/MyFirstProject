@@ -1,8 +1,12 @@
-body{
-    text-align:center;
+body {
+    text-align: center;
 }
-
 img{
     height:100px;
 }
-   
+main {
+    width:1000px;
+    padding:50px;
+    border:2px solid grey;
+    margin:50px auto 50px;
+}
