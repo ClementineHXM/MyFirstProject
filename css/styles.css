@@ -11,9 +11,21 @@ main {
     border:2px solid grey;
     margin:50px auto 50px;
 }
-.active{
-    background: grey;
-    color: black;
+a{
+    text-decoration:none;
+    font-size:20px;
+    color:grey;
+    margin:0 15px;
+}
+a:hover{
+    color:purple;
+}
+a:focus{
+    color:grey;
+}
+.active {
+    color: purple;
+    font-weight:600;
     display: inline-block;
 }
 .navigation{
