@@ -3,7 +3,6 @@ body {
 }
 img{
     height:300px;
-
 }
 main {
     width:1500px;
@@ -30,4 +29,18 @@ a:focus{
 }
 .navigation{
     padding:20px;
+}
+.two-columns{
+    display:inline-block;
+    border: 1px solid grey;
+    width: 49%;
+    height: 200px;
+    color: black;
+}
+.three-columns{
+    display: inline-block;
+    border: 1px solid grey;
+    width: 32%;
+    height: 200px;
+    color: black;
 }
