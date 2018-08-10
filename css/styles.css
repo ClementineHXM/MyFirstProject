@@ -7,7 +7,7 @@ img{
 main {
     width:1500px;
     padding:50px;
-    border:2px solid grey;
+    border:3px solid grey;
     margin:50px auto 50px;
 }
 a{
@@ -32,15 +32,24 @@ a:focus{
 }
 .two-columns{
     display:inline-block;
-    border: 1px solid grey;
+    border: 2px solid grey;
     width: 49%;
     height: 200px;
     color: black;
+    border-style: dotted;
 }
-.three-columns{
+.three-columns {
     display: inline-block;
-    border: 1px solid grey;
+    border: 2px solid grey;
     width: 32%;
     height: 200px;
     color: black;
+    border-style: dotted;
+}
+p {
+    font-family: "Century Gothic", Times, serif;
+}
+.fit-image {
+    padding-bottom: calc(250/360*100%);
+    position: relative;
 }
